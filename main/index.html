@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./output.css">
+   <title>Faculty Evaluation</title>
+
+</head>
+<body class="bg-[#37BC68] font-[Poppins] scrollbar-hide">
+      <main class="text-white">
+         <div class="container px-[2rem] min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-40px)] flex flex-col items-center justify-evenly lg:flex-row lg:justify-evenly">
+            <div class="max-w-lg">
+               <h1 class="text-lh2 md:text-lh1 mb-4 md:mb-6">Faculty Evaluation System</h1>
+               <p class="text-lh5">Automates the traditional process of evaluating faculty members.</p>
+            </div>
+            <div class="w-full max-w-[360px]">
+               <form class="flex flex-col lg:text-sh6">
+                  <input type="text" placeholder="UserID" class="w-full border-b-2 border-white bg-transparent outline-none placeholder:text-white p-2 mb-6">
+                  <input type="password" placeholder="Password" autocomplete="off" class="w-full border-b-2 border-white bg-transparent outline-none placeholder:text-white p-2 mb-6">
+
+                     <select name="userType" id="userType" class="border-b-2 border-white bg-transparent outline-none placeholder:text-white p-2 mb-6">
+                        <option value="student" class="bg-[#32a75d]">Student</option>
+                        <option value="admin" class="bg-[#32a75d]"">Admin</option>
+                     </select>
+
+                  <input type="submit" id="loginBtn" value="Login" class="w-full px-2 py-1 bg-white text-blk mt-2">
+               </form>
+            </div>
+         </div>
+         
+      </main>
+      <footer class="text-sh7 text-gray-200 bg-gray-800">
+         <div class="container px-[2rem] lg:px-[1rem] h-[64px] md:h-[40px] flex flex-col items-center justify-center  md:flex-row md:justify-between">
+            <p>&copy;Faculty Evaluation System 2022</p>
+            <p>Cezarlito O. Baguhin</p>
+         </div>
+      </footer>
+</body>
+<script src="./scripts/login script/login.js"></script>
+</html>

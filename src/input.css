@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+   @apply box-border
+}
+
+.evaluation-card{
+   @apply hover:bg-[#25a163] hover:text-white transition-all ease-in-out duration-200 cursor-pointer
+}
+
+input[type="radio"]:checked {
+   @apply bg-color3 text-color3
+}
+
+
+.btnFill{
+   @apply bg-blue-500 border-2 border-blue-500 text-white hover:bg-transparent hover:text-blk-50 hover:border-blk-50  py-1 px-4
+}
+
+.prevNextBtn{
+   @apply bg-[#25a163] border-2 border-[#25a163] text-white hover:bg-white hover:text-blk-50  hover:border-blk-50  py-1 px-4
+}
+
+.activeSidebar{
+   @apply bg-color1
+}
+
+.sidebarLi{
+   @apply hover:pl-4 transition ease-in-out duration-500
+}
